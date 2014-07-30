@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollUI", "PayrollUI\PayrollUI.csproj", "{9A624B5A-14C1-47A5-81FD-B0166895EDC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll", "Payroll\Payroll.csproj", "{C43D3311-FD20-4D3F-AA69-5DEF4CCD7AA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollDB", "PayrollDB\PayrollDB.csproj", "{3E59CA26-38DA-4AAF-8423-0F4E39FD3AE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A624B5A-14C1-47A5-81FD-B0166895EDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A624B5A-14C1-47A5-81FD-B0166895EDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A624B5A-14C1-47A5-81FD-B0166895EDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A624B5A-14C1-47A5-81FD-B0166895EDC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43D3311-FD20-4D3F-AA69-5DEF4CCD7AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43D3311-FD20-4D3F-AA69-5DEF4CCD7AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43D3311-FD20-4D3F-AA69-5DEF4CCD7AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43D3311-FD20-4D3F-AA69-5DEF4CCD7AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E59CA26-38DA-4AAF-8423-0F4E39FD3AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E59CA26-38DA-4AAF-8423-0F4E39FD3AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E59CA26-38DA-4AAF-8423-0F4E39FD3AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E59CA26-38DA-4AAF-8423-0F4E39FD3AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

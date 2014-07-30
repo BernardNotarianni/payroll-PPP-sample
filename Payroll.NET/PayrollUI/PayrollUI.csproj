@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9A624B5A-14C1-47A5-81FD-B0166895EDC3}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>PayrollUI</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PayrollUI</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Payroll">
+      <Name>Payroll</Name>
+      <HintPath>..\Payroll\bin\Debug\Payroll.dll</HintPath>
+    </Reference>
+    <Reference Include="PayrollDB">
+      <Name>PayrollDB</Name>
+      <HintPath>..\PayrollDB\bin\Debug\PayrollDB.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddEmployeePresenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddEmployeePresenterTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddEmployeeView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddEmployeeWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployeeWindowTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MockAddEmployeeView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MockPayrollPresenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MockPayrollView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MockTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MockViewLoader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PayrollMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PayrollPresenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PayrollPresenterTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PayrollView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PayrollWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayrollWindowTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TransactionContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TransactionContainerTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewLoader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WindowViewLoader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WindowViewLoaderTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="App.ico" />
+    <EmbeddedResource Include="AddEmployeeWindow.resx">
+      <DependentUpon>AddEmployeeWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayrollWindow.resx">
+      <DependentUpon>PayrollWindow.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

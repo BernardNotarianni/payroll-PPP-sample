@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C43D3311-FD20-4D3F-AA69-5DEF4CCD7AA9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>Payroll</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Payroll</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCommissionedEmployee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddEmployeeTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddHourlyEmployee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddSalariedEmployee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Affiliation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BiWeeklySchedule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangeAffiliationTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangeClassificationTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangeCommissionedTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangeDirectTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangeEmployeeTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangeHoldTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangeHourlyTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangeMailTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangeMemberTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangeMethodTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangeNameTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangeSalariedTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ChangeUnaffiliatedTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommissionClassification.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DateUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DeleteEmployeeTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DirectDepositMethod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Employee.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HoldMethod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HourlyClassification.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InMemoryPayrollDatabase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MailMethod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MonthlySchedule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NoAffiliation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Paycheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PaydayTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PaymentClassification.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PaymentMethod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PaymentSchedule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PayrollDatabase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PayrollTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SalariedClassification.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SalesReceipt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SalesReceiptTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ServiceCharge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ServiceChargeTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TimeCard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TimeCardTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnionAffiliation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WeeklySchedule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>
